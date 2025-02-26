@@ -22,7 +22,7 @@ class _IoTThaiMoneyshareState extends State<IoTThaiMoneyshare> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreenUi(),
+      home: MoneyResultUI(),
       theme: ThemeData(
         textTheme: GoogleFonts.kanitTextTheme(
           Theme.of(context).textTheme,
